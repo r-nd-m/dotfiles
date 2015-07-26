@@ -102,11 +102,6 @@ set splitright
 set hidden
 set history=1000
 
-set undofile                " Save undo's after file closes
-set undodir=$HOME/.vim/undo " where to save undo histories
-set undolevels=1000         " How many undos
-set undoreload=10000        " number of lines to save for undo
-
 " disable showmode since powerline already shows it
 set noshowmode
 " required for tmux background to work properly
