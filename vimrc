@@ -1,7 +1,7 @@
 set nocompatible              " required
 filetype off                  " required
 
-"blablalba" Plugins and their config
+" Plugins and their config
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
