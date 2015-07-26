@@ -2,7 +2,7 @@
 PATH=$PATH:.local/bin
 
 # define term
-TERM=xterm-256color
+#export TERM=screen-256color
 
 # run powerline-daemon
 powerline-daemon -q
@@ -17,3 +17,12 @@ eval "$(ssh-agent)" >> /dev/null
 # various keybindings via ssh terminals like PuTTy
 stty ixany
 stty ixoff -ixon
+
+export EDITOR='vim'
+
+# fasd
+eval "$(fasd --init auto)"
+
+# start tmux by default
+alias tmux="tmux -2"
+
