@@ -1,5 +1,5 @@
 # add .local/bin path required for powerline to work
-PATH=$PATH:/home/$USER/.local/bin
+PATH=$PATH:$HOME/.local/bin
 
 # define term
 #export TERM=screen-256color
